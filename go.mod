@@ -1,4 +1,4 @@
-module go_course_for_students_hw06_validator
+module github.com/apat1n/go-course-for-students-hw06-validator
 
 go 1.19
 
