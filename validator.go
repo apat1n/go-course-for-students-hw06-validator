@@ -1,4 +1,4 @@
-package validator
+package go_course_for_students_hw06_validator
 
 import (
 	"fmt"

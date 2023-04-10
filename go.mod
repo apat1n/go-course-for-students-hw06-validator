@@ -1,4 +1,4 @@
-module validator
+module go_course_for_students_hw06_validator
 
 go 1.19
 
