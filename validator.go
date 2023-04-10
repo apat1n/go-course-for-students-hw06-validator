@@ -83,7 +83,7 @@ func validateFieldString(fieldValue string, tagValue string) error {
 				return ErrInvalidValidatorSyntax
 			}
 			if len(fieldValue) != expectedLen {
-				errMsg := fmt.Sprintf("expected string of length %d, go string of length %d", expectedLen, len(fieldValue))
+				errMsg := fmt.Sprintf("expected string of length %d, got string of length %d", expectedLen, len(fieldValue))
 				return errors.New(errMsg)
 			}
 		case "min":
